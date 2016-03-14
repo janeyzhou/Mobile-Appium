@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Calculator" duration-ms="4061" started-at="2016-03-14T08:27:52Z" finished-at="2016-03-14T08:27:56Z">
+    <groups>
+      <group name="sum">
+        <method signature="PositiveTestCase.plusDouble(double, double, double)[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusDouble" class="test.cal.PositiveTestCase"/>
+        <method signature="PositiveTestCase.plusLong()[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusLong" class="test.cal.PositiveTestCase"/>
+      </group> <!-- sum -->
+    </groups>
+    <test name="PositiveTestCase" duration-ms="4061" started-at="2016-03-14T08:27:52Z" finished-at="2016-03-14T08:27:56Z">
+      <class name="test.cal.PositiveTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="setUp" is-config="true" duration-ms="7" started-at="2016-03-14T16:27:52Z" finished-at="2016-03-14T16:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="plusLong()[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusLong" duration-ms="1029" started-at="2016-03-14T16:27:52Z" finished-at="2016-03-14T16:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plusLong -->
+        <test-method status="PASS" signature="subLong()[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="subLong" duration-ms="1028" started-at="2016-03-14T16:27:52Z" finished-at="2016-03-14T16:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLong -->
+        <test-method status="PASS" signature="plusDouble(double, double, double)[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusDouble" duration-ms="1025" started-at="2016-03-14T16:27:52Z" data-provider="sumDp" finished-at="2016-03-14T16:27:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plusDouble -->
+        <test-method status="PASS" signature="plusDouble(double, double, double)[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusDouble" duration-ms="1007" started-at="2016-03-14T16:27:53Z" data-provider="sumDp" finished-at="2016-03-14T16:27:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plusDouble -->
+        <test-method status="PASS" signature="plusDouble(double, double, double)[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusDouble" duration-ms="1001" started-at="2016-03-14T16:27:54Z" data-provider="sumDp" finished-at="2016-03-14T16:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plusDouble -->
+        <test-method status="PASS" signature="plusDouble(double, double, double)[pri:0, instance:test.cal.PositiveTestCase@50cbc42f]" name="plusDouble" duration-ms="1001" started-at="2016-03-14T16:27:55Z" data-provider="sumDp" finished-at="2016-03-14T16:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plusDouble -->
+      </class> <!-- test.cal.PositiveTestCase -->
+    </test> <!-- PositiveTestCase -->
+  </suite> <!-- Calculator -->
+</testng-results>
