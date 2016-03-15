@@ -1,3 +1,3 @@
 # TestNg
 
-please import Calculator.jar and TestNG libraries before you start
+please import Calculator.jar before you start
